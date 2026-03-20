@@ -1,0 +1,536 @@
+[1G[0K⠙[1G[0K
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K⠙[1G[0K12:13:32 PM [express] serving on port 5000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:24:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryDetail.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:24:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/InventoryDetail.tsx, /src/pages/InventoryDashboard.tsx, /src/pages/InventoryList.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:29:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryDetail.tsx, /src/index.css[22m
+12:29:58 PM [express] GET /api/auth/user 200 in 5ms :: {"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","username":"AdminMastera","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","company":"SILLATAVA","profileImageUrl":null,"role":"admin","mustChangePassword":false,"createdAt":"2026-03-17T16:58:43.517Z","updatedAt":"2026-03-17T16:58:43.517Z"}
+12:29:58 PM [express] GET /api/users 200 in 5ms :: [{"id":"76e09f02-90c7-43c2-8ea1-9659fdf9cf9a","email":"admin@helpdesk.com","firstName":"Super","lastName":"Admin","role":"admin","profileImageUrl":null},{"id":"3bb95828-bd54-4e7c-9d6a-b0b59f4c0120","email":"ewrewr@dfsf","firstName":"werew","lastName":"rewrwe","role":"analista","profileImageUrl":null},{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","role":"analista","profileImageUrl":null},{"id":"5ae7cc82-d56d-4b1d-aeb1-c5bb47207ce9","email":null,"firstName":null,"lastName":null,"role":"usuario","profileImageUrl":null},{"id":"2c5b9b58-6e31-4800-a70e-fd331883e348","email":"sd@sadsad","firstName":"sd","lastName":"fsdf","role":"usuario","profileImageUrl":null},{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","role":"admin","profileImageUrl":null},{"id":"6c78956a-cc6b-41c7-a532-9ad9993064ec","email":"juan.zorro@Ocarrava.com","firstName":"Juan Sebastian ","lastName":"Zorro Cabanzo","role":"admin","profileImageUrl":null},{"id":"d6d0e535-f07e-431b-87ff-576346883bf4","email":"ASDASDASD@ASDASD","firstName":"ASDASD","lastName":"SADASD","role":"usuario","profileImageUrl":null},{"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","role":"admin","profileImageUrl":null}]
+12:29:58 PM [express] GET /api/tickets 200 in 11ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+12:30:00 PM [express] GET /api/tickets 304 in 10ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+12:30:02 PM [express] GET /api/tickets 304 in 6ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+12:30:05 PM [express] GET /api/tickets 304 in 8ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+12:30:07 PM [express] GET /api/tickets 304 in 12ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+12:30:08 PM [express] GET /api/assets/categories 200 in 13ms :: [{"id":4,"nombre":"Celulares"},{"id":1,"nombre":"Computadores"},{"id":6,"nombre":"Licencias"},{"id":2,"nombre":"Monitores"},{"id":7,"nombre":"Otros"},{"id":3,"nombre":"Redes"},{"id":8,"nombre":"SIM"},{"id":5,"nombre":"Tablets"}]
+12:30:08 PM [express] GET /api/assets 200 in 25ms :: []
+12:30:19 PM [express] POST /api/assets 201 in 36ms :: {"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z"}
+12:30:19 PM [express] GET /api/assets 200 in 7ms :: [{"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z","categoria":{"id":5,"nombre":"Tablets"}}]
+12:30:23 PM [express] PUT /api/assets/8/specs 200 in 11ms :: {"id":6,"activoId":8,"ram":null,"procesador":null,"sistemaOperativo":null,"capacidadDisco":null,"macWifi":null,"direccionIp":null,"imei1":"kjlj","imei2":null,"numeroSim":null,"red":null,"ubicacion":null,"pulgadas":null,"cargador":"jklk","correoGmail":"jklkl","soporte":null,"wifiBackup":null,"contrasena":null,"fechaVencimiento":null}
+12:30:23 PM [express] GET /api/assets/8 200 in 11ms :: {"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z","categoria":{"id":5,"nombre":"Tablets"},"specs":{"id":6,"activoId":8,"ram":null,"procesador":null,"sistemaOperativo":null,"capacidadDisco":null,"macWifi":null,"direccionIp":null,"imei1":"kjlj","imei2":null,"numeroSim":null,"red":null,"ubicacion":null,"pulgadas":null,"cargador":"jklk","correoGmail":"jklkl","soporte":null,"wifiBackup":null,"contrasena":null,"fechaVencimiento":null},"licenses":[],"movements":[]}
+12:42:51 PM [express] GET /api/auth/user 304 in 49ms :: {"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","username":"AdminMastera","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","company":"SILLATAVA","profileImageUrl":null,"role":"admin","mustChangePassword":false,"createdAt":"2026-03-17T16:58:43.517Z","updatedAt":"2026-03-17T16:58:43.517Z"}
+12:42:51 PM [express] GET /api/tickets 304 in 52ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+12:42:54 PM [express] GET /api/tickets 304 in 14ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+12:42:56 PM [express] GET /api/tickets 304 in 7ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+12:42:57 PM [express] GET /api/users 304 in 7ms :: [{"id":"76e09f02-90c7-43c2-8ea1-9659fdf9cf9a","email":"admin@helpdesk.com","firstName":"Super","lastName":"Admin","role":"admin","profileImageUrl":null},{"id":"3bb95828-bd54-4e7c-9d6a-b0b59f4c0120","email":"ewrewr@dfsf","firstName":"werew","lastName":"rewrwe","role":"analista","profileImageUrl":null},{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","role":"analista","profileImageUrl":null},{"id":"5ae7cc82-d56d-4b1d-aeb1-c5bb47207ce9","email":null,"firstName":null,"lastName":null,"role":"usuario","profileImageUrl":null},{"id":"2c5b9b58-6e31-4800-a70e-fd331883e348","email":"sd@sadsad","firstName":"sd","lastName":"fsdf","role":"usuario","profileImageUrl":null},{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","role":"admin","profileImageUrl":null},{"id":"6c78956a-cc6b-41c7-a532-9ad9993064ec","email":"juan.zorro@Ocarrava.com","firstName":"Juan Sebastian ","lastName":"Zorro Cabanzo","role":"admin","profileImageUrl":null},{"id":"d6d0e535-f07e-431b-87ff-576346883bf4","email":"ASDASDASD@ASDASD","firstName":"ASDASD","lastName":"SADASD","role":"usuario","profileImageUrl":null},{"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","role":"admin","profileImageUrl":null}]
+12:42:59 PM [express] GET /api/tickets 304 in 8ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+1:22:56 PM [express] GET /api/auth/user 304 in 44ms :: {"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","username":"AdminMastera","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","company":"SILLATAVA","profileImageUrl":null,"role":"admin","mustChangePassword":false,"createdAt":"2026-03-17T16:58:43.517Z","updatedAt":"2026-03-17T16:58:43.517Z"}
+1:22:56 PM [express] GET /api/tickets 304 in 53ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+1:22:58 PM [express] GET /api/tickets 304 in 6ms :: [{"id":15,"title":"13","description":"123","category":"Software","zone":"Palmera Pess","status":"resuelto","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":"/uploads/1248b2c672814efb3892952ede82cb45","solutionEvidenceUrl":"/uploads/348f0d2d011f8e0bb4f0cd2ed7023fc2","resolutionNotes":"123","resolutionType":"sitio","createdAt":"2026-03-12T18:15:02.993Z","updatedAt":"2026-03-12T18:15:18.206Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":14,"title":"lll","description":"ll","category":"Software","zone":"Palmera Silla","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:18:07.785Z","updatedAt":"2026-03-12T15:18:17.488Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":13,"title":"123","description":"123","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-12T15:16:25.531Z","updatedAt":"2026-03-12T15:17:45.769Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":12,"title":"aaa","description":"aaa","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:56:09.418Z","updatedAt":"2026-03-11T21:56:52.248Z","creator":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}},{"id":11,"title":"aaa","description":"asdsad","category":"Software","zone":"Palmera Pess","status":"asignado","createdById":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","assignedToId":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","damageEvidenceUrl":null,"solutionEvidenceUrl":null,"resolutionNotes":null,"resolutionType":null,"createdAt":"2026-03-11T21:34:58.613Z","updatedAt":"2026-03-11T21:59:54.185Z","creator":{"id":"d72367e8-4600-41d5-adcd-87c79d9fdb4e","username":"admin","email":"admin@empresa.com","firstName":"Admin","lastName":"Principal","company":null,"profileImageUrl":null,"role":"admin","mustChangePassword":"true","createdAt":"2026-03-09T18:49:26.305Z","updatedAt":"2026-03-09T18:49:26.305Z"},"assignee":{"id":"132977bd-eaa1-4f95-bd3f-913c55bbbae8","username":"werwerxx","email":"juan.zorro@Ocarraxxva.com","firstName":"aa","lastName":"aa","company":null,"profileImageUrl":null,"role":"analista","mustChangePassword":"false","createdAt":"2026-03-11T21:55:52.296Z","updatedAt":"2026-03-11T21:55:52.296Z"}}]
+1:22:59 PM [express] GET /api/assets 200 in 15ms :: [{"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z","categoria":{"id":5,"nombre":"Tablets"}}]
+1:22:59 PM [express] GET /api/assets/categories 200 in 19ms :: [{"id":4,"nombre":"Celulares"},{"id":1,"nombre":"Computadores"},{"id":6,"nombre":"Licencias"},{"id":2,"nombre":"Monitores"},{"id":7,"nombre":"Otros"},{"id":3,"nombre":"Redes"},{"id":8,"nombre":"SIM"},{"id":5,"nombre":"Tablets"}]
+1:23:05 PM [express] GET /api/assets/8 200 in 10ms :: {"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z","categoria":{"id":5,"nombre":"Tablets"},"specs":{"id":6,"activoId":8,"ram":null,"procesador":null,"sistemaOperativo":null,"capacidadDisco":null,"macWifi":null,"direccionIp":null,"imei1":"kjlj","imei2":null,"numeroSim":null,"red":null,"ubicacion":null,"pulgadas":null,"cargador":"jklk","correoGmail":"jklkl","soporte":null,"wifiBackup":null,"contrasena":null,"fechaVencimiento":null},"licenses":[],"movements":[]}
+1:33:13 PM [express] GET /api/auth/user 304 in 13ms :: {"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","username":"AdminMastera","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","company":"SILLATAVA","profileImageUrl":null,"role":"admin","mustChangePassword":false,"createdAt":"2026-03-17T16:58:43.517Z","updatedAt":"2026-03-17T16:58:43.517Z"}
+1:33:13 PM [express] GET /api/assets 304 in 7ms :: [{"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z","categoria":{"id":5,"nombre":"Tablets"}}]
+1:33:13 PM [express] GET /api/assets/categories 304 in 6ms :: [{"id":4,"nombre":"Celulares"},{"id":1,"nombre":"Computadores"},{"id":6,"nombre":"Licencias"},{"id":2,"nombre":"Monitores"},{"id":7,"nombre":"Otros"},{"id":3,"nombre":"Redes"},{"id":8,"nombre":"SIM"},{"id":5,"nombre":"Tablets"}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:33:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/InventoryDetail.tsx, /src/pages/InventoryDashboard.tsx, /src/pages/InventoryList.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:33:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:33:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:33:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:33:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:33:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:34:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:34:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m [33m(x7)[39m
+1:34:41 PM [express] GET /api/auth/user 304 in 7ms :: {"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","username":"AdminMastera","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","company":"SILLATAVA","profileImageUrl":null,"role":"admin","mustChangePassword":false,"createdAt":"2026-03-17T16:58:43.517Z","updatedAt":"2026-03-17T16:58:43.517Z"}
+1:34:41 PM [express] GET /api/assets 304 in 8ms :: [{"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z","categoria":{"id":5,"nombre":"Tablets"}}]
+1:34:41 PM [express] GET /api/assets/categories 304 in 19ms :: [{"id":4,"nombre":"Celulares"},{"id":1,"nombre":"Computadores"},{"id":6,"nombre":"Licencias"},{"id":2,"nombre":"Monitores"},{"id":7,"nombre":"Otros"},{"id":3,"nombre":"Redes"},{"id":8,"nombre":"SIM"},{"id":5,"nombre":"Tablets"}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:36:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m [33m(x8)[39m
+1:36:29 PM [express] GET /api/auth/user 304 in 6ms :: {"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","username":"AdminMastera","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","company":"SILLATAVA","profileImageUrl":null,"role":"admin","mustChangePassword":false,"createdAt":"2026-03-17T16:58:43.517Z","updatedAt":"2026-03-17T16:58:43.517Z"}
+1:36:29 PM [express] GET /api/assets/categories 304 in 5ms :: [{"id":4,"nombre":"Celulares"},{"id":1,"nombre":"Computadores"},{"id":6,"nombre":"Licencias"},{"id":2,"nombre":"Monitores"},{"id":7,"nombre":"Otros"},{"id":3,"nombre":"Redes"},{"id":8,"nombre":"SIM"},{"id":5,"nombre":"Tablets"}]
+1:36:29 PM [express] GET /api/assets 304 in 6ms :: [{"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z","categoria":{"id":5,"nombre":"Tablets"}}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m1:36:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/InventoryList.tsx, /src/index.css[22m [33m(x9)[39m
+1:36:41 PM [express] GET /api/auth/user 304 in 8ms :: {"id":"4fcc3ad5-636c-4e7d-a830-629180a7a421","username":"AdminMastera","email":"juan.zorro@Osadcarraxxva.com","firstName":"asd","lastName":"sasd","company":"SILLATAVA","profileImageUrl":null,"role":"admin","mustChangePassword":false,"createdAt":"2026-03-17T16:58:43.517Z","updatedAt":"2026-03-17T16:58:43.517Z"}
+1:36:41 PM [express] GET /api/assets/categories 304 in 6ms :: [{"id":4,"nombre":"Celulares"},{"id":1,"nombre":"Computadores"},{"id":6,"nombre":"Licencias"},{"id":2,"nombre":"Monitores"},{"id":7,"nombre":"Otros"},{"id":3,"nombre":"Redes"},{"id":8,"nombre":"SIM"},{"id":5,"nombre":"Tablets"}]
+1:36:41 PM [express] GET /api/assets 304 in 5ms :: [{"id":8,"categoriaId":5,"tipo":null,"marca":"llñkñ","modelo":"klñ","numeroSerie":"klñl","sedeZona":"Proto","responsable":"klñkl","fechaCompra":null,"estado":"activo","observacion":"klñklñ","createdAt":"2026-03-20T12:30:19.129Z","updatedAt":"2026-03-20T12:30:19.129Z","categoria":{"id":5,"nombre":"Tablets"}}]

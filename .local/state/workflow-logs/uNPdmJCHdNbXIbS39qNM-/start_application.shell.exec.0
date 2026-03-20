@@ -1,0 +1,27 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K9:19:42 PM [express] serving on port 5000
+9:19:45 PM [express] GET /api/auth/user 401 in 7ms
+[EMAIL DEBUG] gmailUser: ✓ configurado, gmailPass: ✓ configurado
+[EMAIL SENT] To: admin@empresa.com, MessageID: <c7630c80-71f8-ccb2-a2ef-c8107d3b40d8@gmail.com>
+9:19:56 PM [express] POST /api/auth/forgot-password 200 in 1112ms :: {"message":"Si el correo existe, recibirá una contraseña temporal","temporaryPassword":"N9U4NY1KIV","emailSent":true}
+9:22:52 PM [express] POST /api/auth/forgot-password 200 in 12ms :: {"message":"Si el correo existe, recibirá una contraseña temporal"}
+[EMAIL DEBUG] gmailUser: ✓ configurado, gmailPass: ✓ configurado
+[EMAIL SENT] To: juan.zorro@Ocarrava.com, MessageID: <6b339c76-46a1-968f-eb39-7c8ff6ae5736@gmail.com>
+9:23:02 PM [express] POST /api/auth/forgot-password 200 in 1032ms :: {"message":"Si el correo existe, recibirá una contraseña temporal","temporaryPassword":"KR1COYZ9SY","emailSent":true}
+9:23:56 PM [express] POST /api/login 401 in 234ms
+9:24:09 PM [express] POST /api/login 401 in 82ms
+9:24:14 PM [express] POST /api/login 401 in 39ms
+9:24:35 PM [express] POST /api/login 401 in 58ms
+9:24:50 PM [express] POST /api/login 200 in 125ms :: {"id":"6c78956a-cc6b-41c7-a532-9ad9993064ec","username":"JuanZorro","email":"juan.zorro@Ocarrava.com","firstName":"Juan Sebastian ","lastName":"Zorro Cabanzo","profileImageUrl":null,"role":"admin","mustChangePassword":true,"createdAt":"2026-03-09T20:04:14.956Z","updatedAt":"2026-03-09T20:04:14.956Z"}
+9:24:52 PM [express] GET /api/auth/user 200 in 5ms :: {"id":"6c78956a-cc6b-41c7-a532-9ad9993064ec","username":"JuanZorro","email":"juan.zorro@Ocarrava.com","firstName":"Juan Sebastian ","lastName":"Zorro Cabanzo","profileImageUrl":null,"role":"admin","mustChangePassword":true,"createdAt":"2026-03-09T20:04:14.956Z","updatedAt":"2026-03-09T20:04:14.956Z"}
+9:25:04 PM [express] POST /api/auth/change-password 200 in 211ms :: {"message":"Contraseña cambiada exitosamente"}
+9:25:04 PM [express] GET /api/logout 304 in 10ms
+9:25:06 PM [express] GET /api/auth/user 401 in 4ms
+9:37:48 PM [express] GET /api/auth/user 401 in 5ms
+9:51:52 PM [express] GET /api/auth/user 401 in 7ms
+[EMAIL DEBUG] gmailUser: ✓ configurado, gmailPass: ✓ configurado
+[EMAIL SENT] To: juan.zorro@Ocarrava.com, MessageID: <cc4d5d95-816d-5d28-739d-2ff325da3b52@gmail.com>
+9:52:10 PM [express] POST /api/auth/forgot-password 200 in 732ms :: {"message":"Si el correo existe, recibirá una contraseña temporal","temporaryPassword":"7YN42KOM2M","emailSent":true}

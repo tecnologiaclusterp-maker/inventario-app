@@ -1,0 +1,20 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "uyqmAEHPtL5hOR39TeQgg"
+uri = "file://INSTRUCTIVO_USUARIO.md"
+type = "text"
+title = "📖 Instructivo de Uso - IT Helpdesk"
+
+[[outputs]]
+id = "0QIbBrABO7ebwIq5kcMa-"
+uri = "file://CONFIGURACION_EMAIL.md"
+type = "text"
+title = "⚙️ Configuración de Nodemailer con Gmail"
+
+[[outputs]]
+id = "4tWAoyuZwDt20BEmRqTYu"
+uri = "file://RENDER_DEPLOYMENT_GUIDE.md"
+type = "text"
+title = "🚀 Guía de Despliegue en Render"

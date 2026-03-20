@@ -1,0 +1,96 @@
+Necesito ayuda para mejorar la base de datos de mi sistema de inventario sin modificar ni romper la estructura o el código que ya existe en el proyecto.
+
+Objetivo:
+Quiero agregar soporte para un inventario de equipos tecnológicos como computadores, monitores, equipos de red, celulares, tablets, licencias de software y tarjetas SIM.
+
+Requisitos importantes:
+
+* NO modifiques las tablas o funciones que ya existen.
+* NO elimines nada del código actual.
+* Solo agrega nuevas tablas o relaciones si es necesario.
+* Mantén compatibilidad con la base de datos actual.
+* Si es posible usa SQLite ya que el proyecto está en Replit.
+
+Estructura que necesito implementar:
+
+1. Tabla de categorías de activos
+
+* id
+* nombre
+
+Ejemplos de categorías:
+Computadores
+Monitores
+Redes
+Celulares
+Tablets
+Licencias
+Otros
+SIM
+
+2. Tabla principal de activos
+   Debe almacenar información general del equipo:
+
+Campos sugeridos:
+
+* id
+* categoria_id
+* tipo
+* marca
+* modelo
+* numero_serie
+* sede_zona
+* responsable
+* fecha_compra
+* estado
+* observacion
+
+3. Tabla de especificaciones técnicas
+   Para guardar datos técnicos dependiendo del tipo de equipo:
+
+Campos sugeridos:
+
+* activo_id
+* ram
+* procesador
+* sistema_operativo
+* capacidad_disco
+* mac_wifi
+* direccion_ip
+* imei1
+* imei2
+* numero_sim
+* red
+* ubicacion
+* pulgadas
+* cargador
+* correo_gmail
+
+4. Tabla de licencias
+   Para software o licencias asociadas a un activo:
+
+* id
+* activo_id
+* nombre
+* serie
+* fecha_compra
+* fecha_vencimiento
+
+5. Tabla de movimientos de inventario
+   Para llevar historial de entregas o cambios de responsable:
+
+* id
+* activo_id
+* tipo_movimiento (entrega, devolución, cambio)
+* responsable
+* fecha
+* observacion
+
+Lo que necesito que hagas:
+
+* Analizar la estructura actual del proyecto
+* Crear el SQL necesario para agregar estas tablas
+* Asegurarte de que no se rompa nada existente
+* Si alguna tabla ya existe, solo extenderla o reutilizarla
+
+El objetivo es tener una base de datos escalable para inventario de activos tecnológicos.

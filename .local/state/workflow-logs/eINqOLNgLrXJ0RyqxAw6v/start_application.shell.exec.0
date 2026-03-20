@@ -1,0 +1,12 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K9:19:08 PM [express] serving on port 5000
+9:19:13 PM [express] GET /api/auth/user 401 in 6ms
+9:19:18 PM [express] GET /api/debug/email-config 200 in 1ms :: {"gmailUserConfigured":true,"gmailPassConfigured":true,"gmailUserValue":"tec***"}
+9:19:23 PM [express] POST /api/auth/forgot-password 200 in 14ms :: {"message":"Si el correo existe, recibirá una contraseña temporal"}
+[EMAIL DEBUG] gmailUser: ✓ configurado, gmailPass: ✓ configurado
+[EMAIL] Intentando enviar a admin@empresa.com...
+[EMAIL SENT] ✅ To: admin@empresa.com, Subject: Contraseña Temporal - IT Helpdesk, Message ID: <20661622-0665-8244-1f03-1d4d6212ded2@gmail.com>
+9:19:39 PM [express] POST /api/auth/forgot-password 200 in 789ms :: {"message":"Si el correo existe, recibirá una contraseña temporal","temporaryPassword":"DM22Q0CIXO","emailSent":true}
